@@ -1,1 +1,2 @@
-export const getQuote = () => fetch(process.env.REACT_APP_API).then(response => response.json(0));
+export const getQuote = () =>
+  fetch(process.env.REACT_APP_API).then((response) => response.json());

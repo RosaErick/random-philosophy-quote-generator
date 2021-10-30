@@ -3,11 +3,12 @@ import { string, func } from 'prop-types';
 import { Button } from '../../components';
 
 export const Quotes = ({ quote, speaker, onUpdate }) => {
+
 return (     
 <Wrapper>
         <Quote>{quote}</Quote>
         <Speaker>{speaker}</Speaker>
-      <Button onClick={onUpdate}>QUOTE</Button>
+      <Button onClick={onUpdate}>bring me knowledge...</Button>
 
 </Wrapper>);
 }
