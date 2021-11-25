@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import styled from 'styled-components'
 import { Quotes} from "../../components";
 import { getQuote } from "../../services/quotes";
-import jutsoSound from '../../sounds/jutso.mp3';
+import bookSound from '../../sounds/book.mp3';
 import Loader from "../../components/quotes/Loader.js";
 const Content = styled.div`
   height: 100vh;
@@ -31,7 +31,7 @@ const App = () => {
   }
   
   useEffect(() => {
-    audio.current = new Audio(jutsoSound);
+    audio.current = new Audio(bookSound);
   })
   
   return (
