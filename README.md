@@ -2,7 +2,6 @@
 
 A random philosophy quote generator. Built to practice React and API consumption.
 
-## How to use:
 
 In the project directory, you can run:
 
